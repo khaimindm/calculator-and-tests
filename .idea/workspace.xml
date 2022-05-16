@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7325ae56-3fc7-47ed-8c77-51c83ef6e866" name="Changes" comment="16.05.2022">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/khaimin/dmitrii/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/khaimin/dmitrii/exception/NotCorrectCharacterInExpressionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/khaimin/dmitrii/exception/NotCorrectExpressionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/khaimin/dmitrii/exception/NotCorrectOperationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/khaimin/dmitrii/service/Calculations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/khaimin/dmitrii/service/Parsing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/khaimin/dmitrii/service/ValidationCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/khaimin/dmitrii/service/WorkingWithTheConsole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/khaimin/dmitrii/ArithmeticTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/khaimin/dmitrii/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/khaimin/dmitrii/exception/NotCorrectCharacterInExpressionException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/khaimin/dmitrii/exception/NotCorrectExpressionException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/khaimin/dmitrii/exception/NotCorrectOperationException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/khaimin/dmitrii/service/Calculations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/khaimin/dmitrii/service/Parsing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/khaimin/dmitrii/service/ValidationCheck.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/khaimin/dmitrii/service/WorkingWithTheConsole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/ru/khaimin/dmitrii/ArithmeticTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.8.5" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="28N7NuoHUelIypvks4zuFy2lzUx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;last_opened_file_path&quot;: &quot;C:/data/java-data-handling-template&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ru.khaimin.dmitrii" />
+      <recent name="ru.khaimin.dmitrii.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ArithmeticTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.khaimin.dmitrii.Main" />
+      <module name="calculator-and-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.khaimin.dmitrii.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArithmeticTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator-and-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.khaimin.dmitrii.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.khaimin.dmitrii" />
+      <option name="MAIN_CLASS_NAME" value="ru.khaimin.dmitrii.ArithmeticTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArithmeticTest.sumDouble" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator-and-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.khaimin.dmitrii.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.khaimin.dmitrii" />
+      <option name="MAIN_CLASS_NAME" value="ru.khaimin.dmitrii.ArithmeticTest" />
+      <option name="METHOD_NAME" value="sumDouble" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArithmeticTest.sumInt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator-and-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.khaimin.dmitrii.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.khaimin.dmitrii" />
+      <option name="MAIN_CLASS_NAME" value="ru.khaimin.dmitrii.ArithmeticTest" />
+      <option name="METHOD_NAME" value="sumInt" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ArithmeticTest" />
+        <item itemvalue="JUnit.ArithmeticTest.sumDouble" />
+        <item itemvalue="JUnit.ArithmeticTest.sumInt" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7325ae56-3fc7-47ed-8c77-51c83ef6e866" name="Changes" comment="" />
+      <created>1651045156672</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651045156672</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/calculator_and_tests$ArithmeticTest.ic" NAME="ArithmeticTest Coverage Results" MODIFIED="1651682648912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.khaimin.dmitrii.*</FILTER>
+    </SUITE>
+  </component>
+</project>
