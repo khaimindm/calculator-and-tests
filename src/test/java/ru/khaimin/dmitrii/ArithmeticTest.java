@@ -65,4 +65,26 @@ public class ArithmeticTest {
         double dDifferenceDouble = new Double(parsing.parseExpression(first + "-" + second));
         assertThat(expected, comparesEqualTo(dDifferenceDouble));
     }
+
+    @Test
+    @Parameters({
+            "2, 5, 10",
+            "30, 40, 1200"
+    })
+    public void multiplicationInt(int first, int second, int expected) throws NotCorrectOperationException {
+        double dMultiplicationInt = new Double(parsing.parseExpression(first + "*" + second));
+        int intTypeNumber = (int)dMultiplicationInt;
+        assertThat(expected, comparesEqualTo(intTypeNumber));
+    }
+
+    @Test
+    @Parameters({
+            "5.0, 2.0, 10.0",
+            "5.2, 2.0, 10.4",
+            "10.12345678, 1, 10.12345678"
+    })
+    public void multiplicationDouble(double first, double second, double expected) throws NotCorrectOperationException {
+        double dMultiplicationDouble = new Double(parsing.parseExpression(first + "*" + second));
+        assertThat(expected, comparesEqualTo(dMultiplicationDouble));
+    }
 }
