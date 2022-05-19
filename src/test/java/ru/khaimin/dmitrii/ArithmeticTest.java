@@ -17,6 +17,7 @@ import static org.hamcrest.Matchers.*;
 public class ArithmeticTest {
 
     private static Parsing parsing;
+    private double error = 0.00001;
 
     @Before
     public void setUp() throws Exception {
@@ -42,7 +43,7 @@ public class ArithmeticTest {
     })
     public void sumDouble(double first, double second, double expected) throws NotCorrectOperationException {
         double dSumDouble = new Double(parsing.parseExpression(first + "+" + second));
-        assertThat(expected, comparesEqualTo(dSumDouble));
+        assertThat(dSumDouble, closeTo(expected, error));
     }
 
     @Test
@@ -63,7 +64,7 @@ public class ArithmeticTest {
     })
     public void differenceDouble(double first, double second, double expected) throws NotCorrectOperationException {
         double dDifferenceDouble = new Double(parsing.parseExpression(first + "-" + second));
-        assertThat(expected, comparesEqualTo(dDifferenceDouble));
+        assertThat(dDifferenceDouble, closeTo(expected, error));
     }
 
     @Test
@@ -85,6 +86,29 @@ public class ArithmeticTest {
     })
     public void multiplicationDouble(double first, double second, double expected) throws NotCorrectOperationException {
         double dMultiplicationDouble = new Double(parsing.parseExpression(first + "*" + second));
-        assertThat(expected, comparesEqualTo(dMultiplicationDouble));
+        assertThat(dMultiplicationDouble, closeTo(expected, error));
+    }
+
+    @Test
+    @Parameters({
+            "1, 2, 0",
+            "10, 2, 5"
+    })
+    public void divisionInt(int first, int second, int expected) throws NotCorrectOperationException {
+        double dDivisionInt = new Double(parsing.parseExpression(first + "/" + second));
+        int intTypeNumber = (int)dDivisionInt;
+        assertThat(expected, comparesEqualTo(intTypeNumber));
+    }
+
+    @Test
+    @Parameters({
+            "10.0, 2.0, 5.0",
+            "5.2, 2.0, 2.6",
+            "10.12345678, 1, 10.12345678",
+            "10.12345678, 22, 0.46015712636"
+    })
+    public void divisionDouble(double first, double second, double expected) throws NotCorrectOperationException {
+        double dDivisionDouble = new Double(parsing.parseExpression(first + "/" + second));
+        assertThat(dDivisionDouble, closeTo(expected, error));
     }
 }
