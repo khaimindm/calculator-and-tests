@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7325ae56-3fc7-47ed-8c77-51c83ef6e866" name="Changes" comment="18.05.2022">
+    <list default="true" id="7325ae56-3fc7-47ed-8c77-51c83ef6e866" name="Changes" comment="19.05.2022">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/khaimin/dmitrii/ExceptionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/khaimin/dmitrii/ArithmeticTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/khaimin/dmitrii/ArithmeticTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +19,7 @@
       <list>
         <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -40,14 +42,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/data/java-data-handling-template&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/data/java-data-handling-template",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -57,7 +61,7 @@
       <recent name="ru.khaimin.dmitrii.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ArithmeticTest">
+  <component name="RunManager" selected="JUnit.ExceptionTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.khaimin.dmitrii.Main" />
       <module name="calculator-and-tests" />
@@ -102,22 +106,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArithmeticTest.divisionInt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="calculator-and-tests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.khaimin.dmitrii.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.khaimin.dmitrii" />
-      <option name="MAIN_CLASS_NAME" value="ru.khaimin.dmitrii.ArithmeticTest" />
-      <option name="METHOD_NAME" value="divisionInt" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ArithmeticTest.sumDouble" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="calculator-and-tests" />
       <extension name="coverage">
@@ -130,6 +118,21 @@
       <option name="MAIN_CLASS_NAME" value="ru.khaimin.dmitrii.ArithmeticTest" />
       <option name="METHOD_NAME" value="sumDouble" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator-and-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.khaimin.dmitrii.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.khaimin.dmitrii" />
+      <option name="MAIN_CLASS_NAME" value="ru.khaimin.dmitrii.ExceptionTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -147,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ExceptionTest" />
         <item itemvalue="JUnit.ArithmeticTest" />
         <item itemvalue="JUnit.ArithmeticTest.sumDouble" />
         <item itemvalue="JUnit.ArithmeticTest.divisionDouble" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.ArithmeticTest.divisionInt" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652882742341</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="19.05.2022">
+      <created>1652969207157</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652969207157</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,7 +197,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="18.05.2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="18.05.2022" />
+    <MESSAGE value="19.05.2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="19.05.2022" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/calculator_and_tests$ArithmeticTest.ic" NAME="ArithmeticTest Coverage Results" MODIFIED="1651682648912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
