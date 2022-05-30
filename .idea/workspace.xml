@@ -4,15 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7325ae56-3fc7-47ed-8c77-51c83ef6e866" name="Changes" comment="19.05.2022">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/khaimin/dmitrii/ExceptionTest.java" afterDir="false" />
+    <list default="true" id="7325ae56-3fc7-47ed-8c77-51c83ef6e866" name="Changes" comment="20.05.2022">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/khaimin/dmitrii/ValidationCheckTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/khaimin/dmitrii/exception/NotCorrectCharacterInExpressionException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/khaimin/dmitrii/exception/NotCorrectCharacterInExpressionException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/khaimin/dmitrii/exception/NotCorrectExpressionException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/khaimin/dmitrii/exception/NotCorrectExpressionException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/khaimin/dmitrii/exception/NotCorrectOperationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/khaimin/dmitrii/exception/NotCorrectOperationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/khaimin/dmitrii/ArithmeticTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/khaimin/dmitrii/ArithmeticTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/khaimin/dmitrii/ExceptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/khaimin/dmitrii/ExceptionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/khaimin/dmitrii/exception/NotCorrectCharacterInExpressionException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/khaimin/dmitrii/exception/NotCorrectCharacterInExpressionException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/khaimin/dmitrii/exception/NotCorrectExpressionException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/khaimin/dmitrii/exception/NotCorrectExpressionException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/khaimin/dmitrii/exception/NotCorrectOperationException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/khaimin/dmitrii/exception/NotCorrectOperationException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/khaimin/dmitrii/ArithmeticTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/khaimin/dmitrii/ArithmeticTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="C:\Users\user\Desktop\temp" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -42,16 +55,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/data/java-data-handling-template",
-    "settings.editor.selected.configurable": "MavenSettings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/temp&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -61,31 +74,11 @@
       <recent name="ru.khaimin.dmitrii.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ExceptionTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.khaimin.dmitrii.Main" />
+  <component name="RunManager" selected="JUnit.All in calculator-and-tests">
+    <configuration name="All in calculator-and-tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="calculator-and-tests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.khaimin.dmitrii.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArithmeticTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="calculator-and-tests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.khaimin.dmitrii.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.khaimin.dmitrii" />
-      <option name="MAIN_CLASS_NAME" value="ru.khaimin.dmitrii.ArithmeticTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -100,13 +93,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.khaimin.dmitrii" />
       <option name="MAIN_CLASS_NAME" value="ru.khaimin.dmitrii.ArithmeticTest" />
-      <option name="METHOD_NAME" value="divisionDouble" />
+      <option name="METHOD_NAME" value="divisionDouble(double,double,double)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArithmeticTest.sumDouble" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArithmeticTest.divisionInt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="calculator-and-tests" />
       <extension name="coverage">
         <pattern>
@@ -116,13 +109,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.khaimin.dmitrii" />
       <option name="MAIN_CLASS_NAME" value="ru.khaimin.dmitrii.ArithmeticTest" />
-      <option name="METHOD_NAME" value="sumDouble" />
+      <option name="METHOD_NAME" value="divisionInt(int,int,int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArithmeticTest.multiplicationDouble" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="calculator-and-tests" />
       <extension name="coverage">
         <pattern>
@@ -131,8 +124,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.khaimin.dmitrii" />
-      <option name="MAIN_CLASS_NAME" value="ru.khaimin.dmitrii.ExceptionTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="ru.khaimin.dmitrii.ArithmeticTest" />
+      <option name="METHOD_NAME" value="multiplicationDouble(double,double,double)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArithmeticTest.multiplicationInt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator-and-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.khaimin.dmitrii.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.khaimin.dmitrii" />
+      <option name="MAIN_CLASS_NAME" value="ru.khaimin.dmitrii.ArithmeticTest" />
+      <option name="METHOD_NAME" value="multiplicationInt(int,int,int)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ExceptionTest" />
-        <item itemvalue="JUnit.ArithmeticTest" />
-        <item itemvalue="JUnit.ArithmeticTest.sumDouble" />
+        <item itemvalue="JUnit.All in calculator-and-tests" />
         <item itemvalue="JUnit.ArithmeticTest.divisionDouble" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ArithmeticTest.divisionInt" />
+        <item itemvalue="JUnit.ArithmeticTest.multiplicationDouble" />
+        <item itemvalue="JUnit.ArithmeticTest.multiplicationInt" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652969207157</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="20.05.2022">
+      <created>1653048272532</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653048272532</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,9 +215,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="18.05.2022" />
     <MESSAGE value="19.05.2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="19.05.2022" />
+    <MESSAGE value="20.05.2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="20.05.2022" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/calculator_and_tests$All_in_calculator_and_tests.ic" NAME="All in calculator-and-tests Coverage Results" MODIFIED="1653895424969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/calculator_and_tests$ArithmeticTest.ic" NAME="ArithmeticTest Coverage Results" MODIFIED="1651682648912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ru.khaimin.dmitrii.*</FILTER>
     </SUITE>
