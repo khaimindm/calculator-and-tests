@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7325ae56-3fc7-47ed-8c77-51c83ef6e866" name="Changes" comment="20.05.2022">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/khaimin/dmitrii/ValidationCheckTest.java" afterDir="false" />
+    <list default="true" id="7325ae56-3fc7-47ed-8c77-51c83ef6e866" name="Changes" comment="30.05.2022">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/khaimin/dmitrii/exception/NotCorrectCharacterInExpressionException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/khaimin/dmitrii/exception/NotCorrectCharacterInExpressionException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/khaimin/dmitrii/exception/NotCorrectExpressionException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/khaimin/dmitrii/exception/NotCorrectExpressionException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/khaimin/dmitrii/exception/NotCorrectOperationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/khaimin/dmitrii/exception/NotCorrectOperationException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/khaimin/dmitrii/ArithmeticTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/khaimin/dmitrii/ArithmeticTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/khaimin/dmitrii/ExceptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/khaimin/dmitrii/ExceptionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/khaimin/dmitrii/exception/NotCorrectCharacterInExpressionException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/khaimin/dmitrii/exception/NotCorrectCharacterInExpressionException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/khaimin/dmitrii/exception/NotCorrectExpressionException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/khaimin/dmitrii/exception/NotCorrectExpressionException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/khaimin/dmitrii/exception/NotCorrectOperationException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/khaimin/dmitrii/exception/NotCorrectOperationException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/khaimin/dmitrii/ArithmeticTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/khaimin/dmitrii/ArithmeticTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653048272532</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="30.05.2022">
+      <created>1653908984432</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653908984432</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,7 +213,8 @@
     <MESSAGE value="18.05.2022" />
     <MESSAGE value="19.05.2022" />
     <MESSAGE value="20.05.2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="20.05.2022" />
+    <MESSAGE value="30.05.2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="30.05.2022" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/calculator_and_tests$All_in_calculator_and_tests.ic" NAME="All in calculator-and-tests Coverage Results" MODIFIED="1653895424969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
