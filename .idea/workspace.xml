@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7325ae56-3fc7-47ed-8c77-51c83ef6e866" name="Changes" comment="30.05.2022">
+    <list default="true" id="7325ae56-3fc7-47ed-8c77-51c83ef6e866" name="Changes" comment="31.05.2022">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -195,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653908984432</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="31.05.2022">
+      <created>1653998995254</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653998995254</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,7 +221,8 @@
     <MESSAGE value="19.05.2022" />
     <MESSAGE value="20.05.2022" />
     <MESSAGE value="30.05.2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="30.05.2022" />
+    <MESSAGE value="31.05.2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="31.05.2022" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/calculator_and_tests$All_in_calculator_and_tests.ic" NAME="All in calculator-and-tests Coverage Results" MODIFIED="1653895424969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
